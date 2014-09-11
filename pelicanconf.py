@@ -13,7 +13,6 @@ TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = u'fr'
 
 GITHUB_URL = "https://github.com/bertrandbo"
-THEME = "/home/bertrand/Projets/pelican-themes/Just-Read"
 
 TAG_CLOUD_STEPS = 4
 TAG_CLOUD_MAX_ITEMS = 100
