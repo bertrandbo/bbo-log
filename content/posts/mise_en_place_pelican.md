@@ -1,5 +1,6 @@
 Title: Mise en place de Pelican
 Date: 2014-08-19
+Modified: 2014-09-10
 Tags: debian, pelican
 Summary: Mise en place de Pelican (version 3.4.0) sur ma Debian Wheezy pour mon blog personnel
 
