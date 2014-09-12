@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Bertrand'
+AUTHOR = u'Bertrand Bousquet'
 SITENAME = u'bbo-log'
 SITEURL = ''
 
@@ -23,12 +23,12 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS = (	('Pelican', 'http://getpelican.com/'),
-			('Python.org', 'http://python.org/'),)
+LINKS = (	('Propulsé par Pelican', 'http://getpelican.com/'),
+			('Thème pompé chez Tom Preston-Werner', 'http://github.com/mojombo/jekyll'),)
 
 # Social widget
-SOCIAL = (	('LinkedIn', 'http://fr.linkedin.com/in/bertrandbousquet'),
-			('GitHub', 'https://github.com/bertrandbo'),)
+SOCIAL = (	('linkedin.com/bertrandbousquet', 'http://fr.linkedin.com/in/bertrandbousquet'),
+			('github.com/bertrandbo', 'https://github.com/bertrandbo'),)
 
 DEFAULT_PAGINATION = False
 
