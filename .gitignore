@@ -7,3 +7,4 @@
 *.pyc
 cache
 output
+*.pid
