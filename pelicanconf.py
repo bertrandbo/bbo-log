@@ -23,8 +23,12 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS = (	('Propulsé par Pelican', 'http://getpelican.com/'),
-			('Thème pompé chez Tom Preston-Werner', 'http://github.com/mojombo/jekyll'),)
+LINKS = (	('Contenu sous licence CC BY-SA', 'http://creativecommons.org/licenses/by-sa/3.0/fr/'),
+			('Propulsé par Pelican', 'http://getpelican.com/'),
+			('Thème pompé chez Tom Preston-Werner', 'http://github.com/mojombo/jekyll'),
+			('Icone RSS provenant de Wikipedia', 'http://en.wikipedia.org/wiki/File:Feed-icon.svg'),)
+
+
 
 # Social widget
 SOCIAL = (	('linkedin.com/bertrandbousquet', 'http://fr.linkedin.com/in/bertrandbousquet'),
