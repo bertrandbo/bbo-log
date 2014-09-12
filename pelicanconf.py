@@ -25,6 +25,7 @@ TRANSLATION_FEED_ATOM = None
 # Blogroll
 LINKS = (	('Contenu sous licence CC BY-SA', 'http://creativecommons.org/licenses/by-sa/3.0/fr/'),
 			('Propulsé par Pelican', 'http://getpelican.com/'),
+			('Hébergé par OVH', 'https://www.ovh.com/fr/index.xml'),
 			('Thème pompé chez Tom Preston-Werner', 'http://github.com/mojombo/jekyll'),
 			('Icone RSS provenant de Wikipedia', 'http://en.wikipedia.org/wiki/File:Feed-icon.svg'),)
 
