@@ -6,6 +6,12 @@ AUTHOR = u'Bertrand Bousquet'
 SITENAME = u'bbo-log'
 SITEURL = ''
 
+###
+# Custom properties
+AUTHOR_DESCRIPTION = "Ingénieur logiciel"
+AUTHOR_EMAIL = "me@bertrand-bousquet.info"
+###
+
 PATH = 'content'
 
 TIMEZONE = 'Europe/Paris'
