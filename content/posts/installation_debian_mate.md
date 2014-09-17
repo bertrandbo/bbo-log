@@ -1,5 +1,6 @@
 Title: Installation de Mate 1.8 sur Debian 7
 Date: 2014-09-01
+Modified: 2014-09-17
 Tags: debian, wheezy, mate
 Summary: Installation pas-à-pas d'une Debian 7 minimale avec le bureau Mate 1.8
 
@@ -57,14 +58,16 @@ Cela supprime le paquet `mate-media-gstreamer` et installe automatiquement un ap
 
 ### Configuration de Mate
 Le comportement par défaut de Mate me convient. Je ne configure que deux choses :
-- Le magnetisme des fenêtres (Centre de contrôle > Fenêtres > Placement > Activer la mosaique côte à côte) : cela redimensionne la fenêtre pour prendre la moitié de l'écran quand on glisse la fenêtre contre le bord de l'écran
-- Le simple clic pour ouvrir les éléménts (Centre de contrôle > Gestion de fichiers > Comportement)
 
-Si ma machine avait été plus puissante, j'aurai également activé la composition pour le gestionnaire de fenêtre (Centre de contrôle > Fenêtres > Général) car c'est quand même plus joli.
+- Le magnetisme des fenêtres (_Centre de contrôle > Fenêtres > Placement > Activer la mosaique côte à côte_) : cela redimensionne la fenêtre pour prendre la moitié de l'écran quand on glisse la fenêtre contre le bord de l'écran
+- Le simple clic pour ouvrir les éléménts (_Centre de contrôle > Gestion de fichiers > Comportement_)
+
+Si ma machine avait été plus puissante, j'aurai également activé la composition pour le gestionnaire de fenêtre (_Centre de contrôle > Fenêtres > Général_) car c'est quand même plus joli.
 
 ## Logiciels
 
 J'installe ensuite les logiciels qu'il me manque :
+
 - Firefox (qui s'appelle IceWeasel chez Debian) comme navigateur web
 - Exaile comme lecteur de musique (avec l'icone de controle dans la zone de notification) : 
 - Totem et MPlayer (juste au cas où) comme lecteurs de vidéos et de DVD
@@ -72,12 +75,14 @@ J'installe ensuite les logiciels qu'il me manque :
 - Brasero comme logiciel de gravure
 - LibreOffice (avec l'aide en francais) pour la bureautique
 
+L'installation en console se passe comme suit :
+
 	:::console
 	# apt-get install iceweasel exaile python-eggtrayicon totem gnome-player gftp brasero
 	# apt-get install libreoffice-{write, calc, impress} libreoffice-help-fr
 
 ### Codecs multimédia
-Jusqu'à présent, le système restait libre (je n'ai pas activé les dépôts `non-free` et `contrib`). Mais plusieurs de mes fichiers vidéos et mes DVD n'étaient pas lisibles par le système. J'ai donc activé les [dépôts multimédia de Debian] (https://wiki.debian.org/fr/MultimediaCodecs).
+Jusqu'à présent, le système restait libre (je n'ai pas activé les dépôts `non-free` et `contrib`). Mais plusieurs de mes fichiers vidéos et mes DVD n'étaient pas lisibles par le système. J'ai donc activé les [dépôts multimédia de Debian](https://wiki.debian.org/fr/MultimediaCodecs).
 
 En suivant la doc, j'ai juste installé
 
