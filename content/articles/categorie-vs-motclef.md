@@ -1,10 +1,11 @@
 Title: Catégorie vs Mot-clef
 Date: 2014-09-11
+Modified: 2014-10-06
 Tags: pelican
 
 En terme d'organisation de contenu, j'avoue ne pas encore avoir compris la réelle différence entre les catégories et les mots-clefs. Les mots-clefs seraient utilisés pour décrire plus précisement le billet contenu dans une catégorie.
 
-Soit. Mais on arrive toujours dans la situation où le billet peut se retrouver dans deux catégories différentes
+Soit. Mais on arrive toujours dans la situation où le billet peut se retrouver dans deux catégories différentes.
 
 > Le déploiement sous Linux de mon petit logiciel développé en Java, je le mets dans "Développement" ou dans "Système" ?
 

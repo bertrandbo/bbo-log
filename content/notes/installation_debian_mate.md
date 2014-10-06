@@ -1,8 +1,9 @@
-Title: Installation de Mate 1.8 sur Debian 7
+Title: Installer Mate sur Debian
 Date: 2014-09-01
 Modified: 2014-09-17
 Tags: debian, wheezy, mate
-Summary: Installation pas-à-pas d'une Debian 7 minimale avec le bureau Mate 1.8
+Slug: installer-mate-debian
+Summary: Installation d'une Debian 7 minimale avec le bureau Mate 1.8
 
 L'idée est d'installer un petit environnement de travail sans prétention sur une machine assez ancienne et peu puissante (mono-coeur 1.8 GHz et 512 Mo de RAM)
 Je me suis arrêté sur le bureau [Mate](http://mate-desktop.org/) et la distribution [Debian](https://www.debian.org/index.fr.html).
@@ -13,45 +14,27 @@ A partir de l'[ISO d'installation réseau](https://www.debian.org/CD/netinst/), 
 
 L'installateur semi-graphique est vraiment bien fait et très facile à utiliser. L'installation se passe sans problèmes. J'ai configuré le miroir de l'[université de Picardie](http://ftp.u-picardie.fr) qui s'avère être très réactif.
 
-## Installation de Mate
-
-Pas besoin de passer des options particulières à `APT` car je souhaite l'installation des paquets recommandés par les mainteneurs Debian et leurs paquets suggérés ne m'intéressent pas.
-
 ### Activation des dépôts
-Mate est désormais disponible dans les `backport` de Debian. Ainsi, les [instructions](http://backports.debian.org/Instructions/) nous disent qu'il suffit d'ajouter le dépôt dans ses sources . A l'aide de `nano` en `root`, j'ajoute dans `/etc/apt/sources.list` la ligne
+Mate est désormais disponible dans les `backport` de Debian. Ainsi, les [instructions](http://backports.debian.org/Instructions/) nous disent qu'il suffit d'ajouter le dépôt dans ses sources . A l'aide de `nano` en `root`, j'ajoute dans `/etc/apt/sources.list` la ligne `deb http://http.debian.net/debian wheezy-backports main`
 
-	:::console
-	deb http://http.debian.net/debian wheezy-backports main
+### Installation
+Après sauvegarde, mettre à jour la liste des paquets, puis installer :
 
-Après sauvegarde, mettre à jour la liste des paquets
+- le système de fenêtrage X Window et sa documentation (ca peut toujours servir et ca coute pas plus cher),
+- le gestionnaire d'affichage (*Display Manager* en anglais) ; je suis les conseils des forums en partant sur LightDM et non pas sur SliM (utilisé par CrunchBang notamment)
+- le bureau Mate avec les extras et PulseAudio plutôt que GStreamer
+
+Ce qui nous donne :
 
 	:::console
 	# apt-get update
-
-### Système de fenêtrage X
-J'installe X Window et sa documentation (ca peut toujours servir et ca coute pas plus cher)
-
-	:::console
 	# apt-get install xorg xorg-docs
-
-### Gestionnaire d'affichage
-Comme gestionnaire d'affichage (*Display Manager* en anglais), je suis les conseils des forums en partant sur LightDM et non pas sur SliM (utilisé par CrunchBang notamment). Dans ce cas précis, les paquets suggérés me paraissaient intéressants (`accountsservice` et `upower`). Mais l'option `--install-suggests` de `APT` étant récursive, on se retrouve avec des dizaines de paquets à installer...  Donc, on les installe à la main :
-
-	:::console
 	# apt-get install ligthdm accountsservice upower
+	# apt-get install mate-desktop-environment-extra mate-media-pulse
 
-### Bureau Mate
-Enfin, j'installe le bureau avec les extras
+Pas besoin de passer des options particulières à `APT` car je souhaite l'installation des paquets recommandés par les mainteneurs Debian et leurs paquets suggérés ne m'intéressent pas, sauf dans le cas de LightDM où les paquets suggérés me paraissaient intéressants (`accountsservice` et `upower`). Mais l'option `--install-suggests` de `APT` étant récursive, on se retrouve avec des dizaines de paquets à installer...  Donc, il faut installer les paquets recommandés à la main.
 
-	:::console
-	# apt-get install mate-desktop-environment-extra
-
-Mate n'utilise pas PulseAudio par défaut, mais GStreamer. Je passe à PulseAudio :
-
-	:::console
-	# apt-get install mate-media-pulse
-
-Cela supprime le paquet `mate-media-gstreamer` et installe automatiquement un applet de son dans la zone de notification. Je conclus cette installation fraiche par un redémarrage :
+On finit par un redémarrage de la machine :
 
 	:::console
 	# shutdown -r now
