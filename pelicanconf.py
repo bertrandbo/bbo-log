@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Bertrand Bousquet'
-SITENAME = u'bbo-log'
+SITENAME = u'bertrandb-log'
 SITEURL = ''
 
 ###
@@ -45,8 +45,8 @@ DEFAULT_PAGINATION = False
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-ARTICLE_URL = '{category}/{date:%Y}/{date:%m}/{date:%d}/{slug}'
-ARTICLE_SAVE_AS = '{category}/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
+ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}'
+ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 CATEGORY_URL = '{slug}'
 CATEGORY_SAVE_AS = '{slug}/index.html'
