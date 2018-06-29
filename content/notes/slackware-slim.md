@@ -1,8 +1,11 @@
-Title: Installer SLiM sur Slackware
-Date: 2014-09-27
-Modified: 2014-10-06
-Tags: slackware, slim
-Summary: Installer SLiM sur Slackware 14.1
+title=Installer SLiM sur Slackware
+date=2014-09-27
+modified=2014-10-06
+tags=slackware,slim
+summary=Installer SLiM sur Slackware 14.1
+status=published
+type=post
+~~~~~~
 
 Pour remplacer XDM, j'ai choisi SLiM (utilisé notamment, par [Crunchbang](http://crunchbang.org/)). La [documentation francophone de slackware](http://wiki.slackware-fr.org/xwindow:articles:slim) couvre l'essentiel pour installer et configurer SLiM.
 

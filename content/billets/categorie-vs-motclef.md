@@ -1,7 +1,10 @@
-Title: Catégorie vs Mot-clef
-Date: 2014-09-11
-Modified: 2014-10-06
-Tags: pelican
+title=Catégorie vs Mot-clef
+date=2014-09-11
+modified=2014-10-06
+tags=pelican
+status=published
+type=post
+~~~~~~
 
 En terme d'organisation de contenu, j'avoue ne pas encore avoir compris la réelle différence entre les catégories et les mots-clefs. Les mots-clefs seraient utilisés pour décrire plus précisement le billet contenu dans une catégorie.
 

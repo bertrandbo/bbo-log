@@ -1,8 +1,11 @@
-Title: Installer Mate sur Slackware
-Tags: slackware, mate, slim
-Date: 2014-09-29
-Modified: 2014-10-06
-Summary: Installer Mate 1.8 sur Slackware 14.1
+title=Installer Mate sur Slackware
+tags=slackware, mate, slim
+date=2014-09-29
+modified=2014-10-06
+summary=Installer Mate 1.8 sur Slackware 14.1
+status=published
+type=post
+~~~~~~
 
 Basé sur mon installation [Slackware 14.1 + XFCE]({filename}slackware.md), je souhaitais profiter de Mate. Une petite équipe de développeurs proposent [un SlackBuild et une version compilée de Mate](http://mateslackbuilds.github.io/). L'avantage de cette solution est qu'elle se base sur les packages disponibles dans l'installation de base. Contrairement à [MLED](http://www.microlinux.fr/mled.php) qui, à une époque, [se basait sur Mate](http://linuxfr.org/news/mled-passe-de-xfce-a-mate). Mais certains paquets du système de base étaient recompilés par le mainteneur. Je trouve cela moins pratique.
 

@@ -1,9 +1,12 @@
-Title: Désactiver le pavé tactile sur Mate
-Date: 2014-09-03
-Modified: 2014-09-11
-Tags: mate, debian, wheezy
-Slug: desactiver-touchpad-mate
-Summary: Comment désactiver le touchpad sur Mate 1.8 ?
+title=Désactiver le pavé tactile sur Mate
+date=2014-09-03
+modified=2014-09-11
+tags=mate, debian, wheezy
+slug=desactiver-touchpad-mate
+summary=Comment désactiver le touchpad sur Mate 1.8 ?
+status=published
+type=post
+~~~~~~
 
 Depuis les préférences de Mate (Souris > Pavé tactile), il est seulement possible de le désactiver pendant la frappe. Pour le désactiver complètement, cela peut se faire pour la session utilisateur courante à l'aide d'une propriété `dconf`.
 

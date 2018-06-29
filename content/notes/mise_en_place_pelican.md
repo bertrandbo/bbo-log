@@ -1,8 +1,11 @@
-Title: Mise en place de Pelican
-Date: 2014-08-19
-Modified: 2014-09-10
-Tags: debian, pelican
-Summary: Mise en place de Pelican (version 3.4.0) sur ma Debian Wheezy pour mon blog personnel
+title=Mise en place de Pelican
+date=2014-08-19
+modified=2014-09-10
+tags=debian, pelican
+summary=Mise en place de Pelican (version 3.4.0) sur ma Debian Wheezy pour mon blog personnel
+status=published
+type=post
+~~~~~~
 
 Je souhaite utiliser [Pelican](http://www.getpelican.com/) pour diffuser facilement mes notes et pense-bêtes.
 L'idée est d'avoir quelque chose de léger et facilement versionnable.

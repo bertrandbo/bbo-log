@@ -1,8 +1,11 @@
-Title: Installer Slackware
-Date: 2014-09-26
-Modified: 2014-10-06
-Tags: slackware
-Summary: Installer une Slackware 14.1 
+title=Installer Slackware
+date=2014-09-26
+modified=2014-10-06
+tags=slackware
+summary=Installer une Slackware 14.1 
+status=published
+type=post
+~~~~~~
 
 Contrairement à ce que j'imaginais, Slackware s'installe très facilement. Il faut juste prendre le temps de lire ce que l'installateur dit et... lire la doc !
 

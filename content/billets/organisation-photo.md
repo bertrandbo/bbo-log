@@ -1,7 +1,10 @@
-Title: Gestion de ma phototèque
-Date: 2016-07-28
-Modified: 2016-10-06
-Tags: photo
+title=Gestion de ma phototèque
+date=2016-07-28
+modified=2016-10-06
+tags=photo
+status=published
+type=post
+~~~~~~
 
 _Note : article commencé cet été mais jamais publié car jamais considéré comme terminé. Est-il plus terminé maintenant, je ne sais pas. Mais au moins il est publié..._
 

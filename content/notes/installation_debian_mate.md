@@ -1,9 +1,12 @@
-Title: Installer Mate sur Debian
-Date: 2014-09-01
-Modified: 2014-09-17
-Tags: debian, wheezy, mate
-Slug: installer-mate-debian
-Summary: Installation d'une Debian 7 minimale avec le bureau Mate 1.8
+title=Installer Mate sur Debian
+date=2014-09-01
+modified=2014-09-17
+tags=debian, wheezy, mate
+slug=installer-mate-debian
+summary=Installation d'une Debian 7 minimale avec le bureau Mate 1.8
+status=published
+type=post
+~~~~~~
 
 L'idée est d'installer un petit environnement de travail sans prétention sur une machine assez ancienne et peu puissante (mono-coeur 1.8 GHz et 512 Mo de RAM).
 Je me suis arrêté sur le bureau [Mate](http://mate-desktop.org/) et la distribution [Debian](https://www.debian.org/index.fr.html).

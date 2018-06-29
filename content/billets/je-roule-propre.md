@@ -1,6 +1,9 @@
-Title: Je roule 100% propre
-Date: 2014-10-07
-Tags: ecologie
+title=Je roule 100% propre
+date=2014-10-07
+tags=ecologie
+status=published
+type=post
+~~~~~~
 
 Dernièrement en ville, j'ai pu voir une voiture électrique arborer fièrement cette phrase :
 
